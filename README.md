@@ -8,9 +8,9 @@ Le service écoute en UDP sur le port 5000 et recopie le message reçu dans un T
 
 On peut solliciter le service depuis un navigateur web grace à un script php
 EX de script : envoiUDP.php
-//************************************************************
-Voir les commentaires dans MainActivity.java
-//******************************************************
+
+Voir les sources du script php dans les commentaires de MainActivity.java
+
 Le message étant récupéré dans l'url, il faut que celle-ci soit de la forma:
 http://ip_smartphone/chemin_des_pages_web/envoiUDP?mes=messageA_transmettre
 
